@@ -37,7 +37,7 @@
 	font-family: "Poppins", sans-serif;
 }
 
-.font-others, h4,h5,h6,p{
+.font-others, h4,h5,h6,p,ul, form{
 	font-family: "Hind Madurai", serif;
 }
 
@@ -46,10 +46,68 @@
 	height: 4vh;
 }
 
-a {
-	color: #e4c0c1;
+em {
+	color: #f0daf0
 }
 
-p{
+strong {
+	color: #deb4aa;
+}
+
+a {
+	color: #eacdd8;
+	text-decoration: none;
+}
+
+p, ul{
+	font-size: 2vh;
+}
+
+#down-button {
+	color: #191919;
+}
+
+.navbar {
+	font-size: 2vh;
+}
+
+.sebby {
+	height: 50vh;
+}
+
+.kiira {
+	height: 50vh;
+}
+
+.btn {
+	background-color: #deb4aa;
+	color: #191919;
+	border-color: #eacdd8;
+}
+
+.btn:hover {
+	background-color: #191919;
+	color: #deb4aa;
+}
+
+form {
 	font-size: 1.5vh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.a-footer{
+	color: #191919;
+	font-size: 1.5vh;
+}
+
+.p-footer {
+	color: #191919;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 10vh;
 }

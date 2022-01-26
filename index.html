@@ -21,47 +21,49 @@
 
 		<title>Collene De Silva</title>
 	</head>
-	<body>
+	<body class="bg-1">
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-1 fixed-top" id="home">
-		  <a class="navbar-brand" href="#"><img src="https://i.ibb.co/mTwqWVt/Untitled-1.png" alt="Collene-De-Silva" border="0" id="my-icon"></a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-1 fixed-top">
+		<div class="ml-4">
+		  <a class="navbar-brand" href="#home"><img src="https://i.ibb.co/mTwqWVt/Untitled-1.png" alt="Collene-De-Silva" border="0" id="my-icon"></a>
+		</div>
+
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto font-others">
-		      <a class="nav-link active m-3" href="#home">Home <span class="sr-only">(current)</span></a>
-		      <a class="nav-link m-3" href="about-me">About Me</a>
-		      <a class="nav-link m-3" href="projects">Projects</a>
-		      <a class="nav-link m-3" href="contact-me">Contact Me</a>
+		      <a class="nav-link active m-3" href="#home">Home<span class="sr-only">(current)</span></a>
+		      <a class="nav-link m-3" href="#about-me">About Me</a>
+		      <a class="nav-link m-3" href="#projects">Projects</a>
+		      <a class="nav-link m-3" href="#contact-me">Contact Me</a>
 		    </div>
 		  </div>
 		</nav>
 		<!-- Navbar End -->
 
 		<!-- Landing Page Start -->
-		<section class="container-fluid bg-2 min-vh-100 text-center mt-6">
+		<section class="container-fluid bg-2 min-vh-100 d-flex align-items-center justify-content-center" id="home">
 			<div class="d-flex flex-column">
 				<!-- Intro and Pic -->
-				<div class="row d-md-flex p-2 justify-content-center align-items-center flex-row min-vh-100 mt-5 mb-0">
+				<div class="d-md-flex p-2 flex-row justify-content-center align-items-center">
 
 					<!-- Pic -->
-					<div><img src="https://i.ibb.co/hcPKXHF/IMG-0175.png" alt="My-Pic" border="0" class="img-fluid h-100 d-block mx-auto"></div>
+					<div class="d-none d-md-block"><img src="https://i.ibb.co/hcPKXHF/IMG-0175.png" alt="My-Pic" border="0" class="img-fluid"></div>
 
 					<!-- Intro -->
-					<div class="m-0">
-						<h4 class="font-others">Hello there! Im...</h4>
-						<h1 class="font-primary">Collene De Silva,</h1>
-						<h3 class="font-secondary">A Passionate Developer</h3>
-						<h5 class="font-others">And a gamer on the side</h5>
+					<div>
+						<h4>Hello there! Im...</h4>
+						<h1>Collene De Silva,</h1>
+						<h3>A Passionate Developer</h3>
+						<h5>And a gamer on the side</h5>
 						<div id="down-button">
-							<svg xmlns="http://www.w3.org/2000/svg" width="3vh" height="3vh" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+							<a href="#about-me" id="down-button"><svg xmlns="http://www.w3.org/2000/svg" width="3vh" height="3vh" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
 							  <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
 							  <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-							</svg>
+							</svg></a>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</section>
@@ -69,55 +71,339 @@
 
 
 		<!-- About Me Start-->
-		<section id="about-me" class="bg-1 min-vh-100">
-			<div class="container-fluid">
-				<!-- Main Start -->
-				<div class="d-flex flex-column justify-content-center align-items-center">
-					<div class="m-5">
-						<h1 class="font-primary text-2 d-inline">A</h1><h1 class="font-primary text-light d-inline">bout </h1><h1 class="font-primary text-2 d-inline">M</h1><h1 class="font-primary text-light d-inline">e:</h1>
+		<section class="container-fluid bg-1 min-vh-100 d-flex align-items-center">
+				<div class="d-flex flex-column justify-content-center align-items-center mx-1 p-3">
+					<!-- Main Start -->
+
+					<!-- About Me Header -->
+					<div class="mt-5">
+						<h1 class="text-2 d-inline" id="about-me">A</h1><h1 class="text-light d-inline">bout </h1><h1 class="text-2 d-inline">M</h1><h1 class="text-light d-inline">e:</h1>
 					</div>
-					<div class="d-lg-flex flex-row justify-content-center align-items-center m-3">
-						<div>
-							<img src="https://i.ibb.co/FshGYn0/image-2022-01-25-202129.png" alt="image-2022-01-25-202129" border="0" class="img-fluid d-block mx-auto align-self-center">
-						</div>
-						<div class="text-light text-center col-lg-6 font-others">
-							<h1 class="font-primary">I'm Collene De Silva</h1>
-							<h3 class="font-secondary">A <strong>Full-Stack Developer</strong> in the Making</h3>
-							<p class="font-others">I graduated BS Civil Engineering back in 2019. After 2 years of working as a Civil/Structural Engineer, I didn't have the fulfillment I'm looking for. I looked back, contemplated, and finally found my passion which is in the line of computers.</p>
-							<p class="font-others">I've been using computers since I was 8 years old. Purely for gaming. Then, in high school, we had a subject in <em>Visual Basic, Basic HTML and Basic CSS</em>. Visual Basic knowledges refreshed in my 1st and 2nd year of college alongside with <em>C</em> language. My love for developing did not stop even if I am a civil engineering student because our thesis is titled: <em><strong>RS Gravador Cost Estimating Software</strong></em> which I you can view in the <a href="#projects" class="text-decoration-none">projects</a> section.</p>
-							<hr>
-							<p class="font-others">My other interests include <em><a href="#Valorant" class="text-decoration-none">Valorant</a></em> and <em><a href="#Blackpink" class="text-decoration-none">Blackpink</a></em>. I also have two of the most adorable <a href="#Cats" class="text-decoration-none">cats</a> in the world
-						</div>
+
+					<!-- Row of Picture and Description -->
+					<div class="d-flex flex-column justify-content-center align-items-center">
+						<div class="d-xl-flex flex-row justify-content-center align-items-center m-md-3 p-md-2">
+							<!-- Picture -->
+							<div class="align-self-center p-md-5">
+								<img src="https://i.ibb.co/d6LV3Hs/image-2022-01-26-064551.png" border="0" class=" py-3 py-md-5 w-100 img-fluid" >
+							</div>
+
+							<!-- Description -->
+							<div class="text-light text-center col-xl-6">
+								<h1>I'm Collene De Silva</h1>
+								<h3 class="mb-5">A <strong>Full-Stack Developer</strong> in the Making</h3>
+								<p>I graduated BS Civil Engineering back in 2019. After 2 years of working as a Civil/Structural Engineer, I didn't have the fulfillment I'm looking for. I looked back, contemplated, and finally found my passion which is in the line of computers.</p>
+								<p>I've been using computers since I was 8 years old. Purely for gaming. Then, in high school, we had a subject in <em>Visual Basic, Basic HTML and Basic CSS</em>. Visual Basic knowledges refreshed in my 1st and 2nd year of college alongside with <em>C</em> language. My love for developing did not stop even if I am a civil engineering student because our thesis is titled: <em><strong>RS Gravador Cost Estimating Software</strong></em> which I you can view in the <a href="#projects" class="text-decoration-none">projects</a> section.</p>
+								<hr>
+								<p class="font-others">My other interests include <em><a href="#other-interest" class="text-decoration-none">Valorant</a></em> and <em><a href="#other-interest" class="text-decoration-none">Blackpink</a></em>. I also have two of the most adorable <a href="#cats" class="text-decoration-none">cats</a> in the world</p>
+							</div>
+						</div>					
 					</div>
 					<!-- Main End -->
+				</div>
+		</section>
 
-					<!-- Other interests Start -->
-					<!-- Valorant -->
-					<div class="m-5">
-						<h1 class="font-primary text-2 d-inline" id="Valorant">O</h1><h1 class="font-primary text-light d-inline">ther Interests:</h1>
+		<!-- Other interests Start -->
+		<section class="container-fluid bg-1 d-flex align-items-center">
+				<div class="d-flex flex-column justify-content-center align-items-center mx-md-5 p-1">
+
+
+					<!-- Other Interest Header -->
+					<div class="text-center mb-5">
+						<h1 class="text-2 d-inline" id="other-interest">O</h1><h1 class="text-light d-inline">ther </h1><h1 class="text-2 d-inline">I</h1><h1 class="text-light d-inline">nterests:</h1>
 					</div>
-					<div class="d-flex">
-						<div class="d-lg-flex flex-column justify-content-center align-items-center m-3">
-							<div class="embed-responsive embed-responsive-16by9">
+
+					<!-- Row of Videos -->
+					<div class="d-xl-flex flex-row justify-content-around align-items-start">
+						<!-- Valorant -->
+						<div class="col-xl-6 mr-auto mb-5">
+							<!-- Photo only -->
+							<div class="d-md-none">
+								<img src="https://i.ibb.co/SdGvZ1V/143075545-231193751991630-2638868369052623734-n.jpg" alt="143075545-231193751991630-2638868369052623734-n" border="0" class="img-fluid">
+							</div>
+
+							<!-- Video -->
+							<div class="d-none d-md-block embed-responsive embed-responsive-16by9">
 							<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fkryyyo%2Fvideos%2F447247046653464%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" class="embed-responsive-item"></iframe>
 							</div>
-							<div class="text-light">
-							<p>I usually play Valorant every night since 2020. It helps me build my reflexes, focus, and team skills. (Who says games can't be helpful)</p>
+
+
+							<div class="text-light text-center">
+							<p>I usually play Valorant every night since 2020. It helps me build my reflexes, focus, and team skills. (Who says games can't be helpful). I also stream in my following channels: <a href="https://www.facebook.com/kryyyo">Facebook</a> and <a href="https://www.twitch.tv/kryo31">Twitch</a> if the bandwidth permits. <i>*sigh*</i> </p>
 							</div>
 						</div>
-						<div class="d-lg-flex flex-column justify-content-center align-items-center m-3">
-							<iframe width="1280" height="720" src="https://www.youtube.com/embed/Iq6wkVsaCq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<!-- Blackpink -->
+						<div class="col-xl-6 ml-auto mb-5">
+							<!-- Photo only -->
+							<div class="d-md-none">
+								<img src="https://i.ibb.co/KyjnjP4/blackpink-lovesick-girls-uhdpaper-com-hd-5-2958.jpg" alt="blackpink-lovesick-girls-uhdpaper-com-hd-5-2958" border="0" class="img-fluid">
+							</div>
+
+
+							<!-- Video -->
+							<div class="d-none d-md-block embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="314" src="https://www.youtube.com/embed/4U8GJBW5qog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item"></iframe>
+							</div>
+
+
+							<div class="text-light text-center">
+							<p><strong>Blackpink is the Revolution!</strong> Blackpink owns a special part in my heart. They are the ones that help me cope up a tragic situation back in 2020. Their songs, dances, and their individual characteristics make me like them. Oh and my bias is Kim Jisoo. A visual and a gamer too.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- Other Interests End  -->
+
+		<!-- Cats Section Start -->
+		<section class="container-fluid bg-1 d-flex align-items-center">
+				<div class="d-flex flex-column justify-content-center align-items-center mx-md-5 p-1">
+
+		
+
+					<!-- Cats Header -->
+					<div class="text-center mb-5">
+						<h1 class="text-2 d-inline" id="cats">C</h1><h1 class="text-light d-inline">ats:</h1>
+					</div>
+
+					<!-- Row of Carousel -->
+					<div class="d-xl-flex flex-row justify-content-around align-items-start">
+						<!-- Sebby -->
+						<div class="col-xl-6 mr-auto mb-5">
+							<!-- Photos Only -->
+							<div class="d-md-none">
+								<img src="https://i.ibb.co/6XjZmBS/Screenshot-2022-01-26-021918.png" alt="Screenshot-2022-01-26-022417" border="0" class="img-fluid">
+							</div>
+
+							<div class="d-none d-md-block">
+								<!-- Carousel -->
+								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+								  <div class="carousel-inner">
+								    <div class="carousel-item active">
+								      <img src="https://i.ibb.co/6XjZmBS/Screenshot-2022-01-26-021918.png" alt="Screenshot-2022-01-26-021918" class="d-block center mx-auto sebby img-fluid" alt="sebby-1">
+								    </div>
+								    <div class="carousel-item">
+								      <img src="https://i.ibb.co/KhLktzq/Screenshot-2022-01-26-024111.png" class="d-block mx-auto sebby img-fluid" alt="sebby-2">
+								    </div>
+								    <div class="carousel-item">
+								      <img src="https://i.ibb.co/M5ZYgS7/Screenshot-2022-01-26-024056.png" class="d-block mx-auto sebby img-fluid" alt="sebby-3">
+								    </div>
+								  </div>
+								 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </button>
+								  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </button>
+								</div>
+							</div>
+
+							<!-- Caption -->
+							<div class="text-light text-center">
+							<p>This is <strong>Sebby</strong>. The friendly and playful cat who can finish a pack of wet food in one sitting.</p>
+							</div>
+						</div>
+						
+
+						<!-- Kiira -->
+						<div class="col-xl-6 mr-auto mb-5">
+							<!-- Photos Only -->
+							<div class="d-md-none">
+								<img src="https://i.ibb.co/pbQ51WN/Screenshot-2022-01-26-022417.png" alt="Screenshot-2022-01-26-022417" border="0" class="img-fluid">
+							</div>
+
+							<div class="d-none d-md-block">
+								<!-- Carousel -->
+								<div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+								  <div class="carousel-inner">
+								    <div class="carousel-item active">
+								      <img src="https://i.ibb.co/pbQ51WN/Screenshot-2022-01-26-022417.png" class="d-block mx-auto kiira img-fluid" alt="kiira-1">
+								    </div>
+								    <div class="carousel-item">
+								      <img src="https://i.ibb.co/TP9Czyw/Screenshot-2022-01-26-024044.png" class="d-block mx-auto kiira img-fluid" alt="kiira-2">
+								    </div>
+								    <div class="carousel-item">
+								      <img src="https://i.ibb.co/TP9Czyw/Screenshot-2022-01-26-024044.png" class="d-block mx-auto kiira img-fluid" alt="kiira-3">
+								    </div>
+								  </div>
+								 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls1" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </button>
+								  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls1" data-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </button>
+								</div>
+							</div>
+
+							<!-- Caption -->
+							<div class="text-light text-center">
+							<p>Then there's <strong>Kiira</strong>. The not-so-friendly and always sleeping Siamese cat always having a sleep schedule of 4pm onwards.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- Cats Section End -->
+
+		<!-- Projects Start-->
+		<section class="container-fluid d-flex flex-column bg-2 min-vh-100">
+			<div>
+				
+
+				<!-- Projects Header -->
+				<div class="text-center m-5">
+					<h1 class="text-1 d-inline" id="projects"><b>P</b></h1><h1 class="text-dark d-inline">rojects:</h1>
+				</div>
+			</div>
+
+			<div class="d-xl-flex justify-content-center p-md-5">
+					<!-- Portfolio Start -->
+					<div class="card bg-1 col-xl-5 mb-5 mb-xl-0 mr-xl-3">
+					  <div class="card-body">
+					  	<img src="https://i.ibb.co/517zM7s/Screenshot-2022-01-26-031637.png" class="card-img-top">
+					    <h1 class="card-title mt-3 text-2">Portfolio</h1>
+					    <h4 class="card-subtitle mb-2 text-muted">HTML,CSS, and Bootstrap</h4>
+					    <p class="card-text text-light">This is my very first Portfolio Design using HTML,CSS and Bootstrap. I had fun doing it all night long!</p>
+					    <a href="#" class="btn btn-primary">Check it out</a>
+					  </div>
+					</div>
+					<!-- Portfolio End -->
+
+					<!-- Estimate Start -->
+					<div class="card bg-1 col-xl-5 mb-5 mb-xl-0 ml-xl-3">
+					  <div class="card-body">
+					  	<img src="https://i.ibb.co/QMq67Lj/1.png" class="card-img-top">
+					    <h1 class="card-title mt-3 text-2">RS Gravador Estimate</h1>
+					    <h4 class="card-subtitle mb-2 text-muted">Visual Basic for Applications</h4>
+					    <p class="card-text text-light">This is my thesis back in Civil Engineering. It is a software for the automatic computation for estimation of imported AutoCAD floor plans.</p>
+					    <a href="https://github.com/kryyyo/sample-projects" class="btn btn-primary">Check it out</a>
+					  </div>
+					</div>
+					<!-- Estimate End -->	
+			</div>		
+		</section>
+		<!-- Projects End -->
+
+		<!-- Contacts Start -->
+		<section class="container-fluid bg-1 min-vh-100 d-flex align-items-center justify-content-center text-light">
+				<div class="d-flex flex-column justify-content-center align-items-center mx-1 p-3">
+					<!-- Main Start -->
+			
+
+					<!-- Contact Me Header -->
+					<div class="my-5">
+						<h1 class="text-2 d-inline" id="contact-me">L</h1><h1 class="text-light d-inline">et's </h1><h1 class="text-2 d-inline">C</h1><h1 class="text-light d-inline">onnect:</h1>
+					</div>
+
+					<div class="d-xl-flex flex-row justify-content-center align-items-center">
+						<!-- Maps -->
+						<div class="col-xl-6">
+							<div class="embed-responsive embed-responsive-1by1"><div class="mapouter"><div class="gmap_canvas"><iframe width="200vw" height="100vh" id="gmap_canvas" src="https://maps.google.com/maps?q=JYCA%20Trading&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="embed-responsive-item"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div></div>
+							</div>
+
+							<div>
+								<p class="text-light">Click the "View larger map" for my location!</p>
+							</div>
+						</div>
+
+						<!-- Email Form -->
+						<div class="col-xl-6">
+							<div>
+							<p class="text-light">You can also send me an email here!</p>
+							</div>
+							<div>
+								<form class="text-light">
+								   <div class="form-group">
+								  	<label for="name">Name</label>
+								  	<input type="text" class="form-control" id="name" placeholder="Your Name">
+								  </div>
+
+								  <div class="form-group">
+								    <label for="exampleInputEmail1">Email address</label>
+								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+								  </div>
+
+								  <div class="form-group">
+								    <label for="contactnumber">Contact Number</label>
+								    <input type="number" class="form-control" id="contactnumber" placeholder="+63 900 000 0000">
+								  </div>
+
+								  <div class="form-group">
+								    <label for="exampleFormControlSelect1">Concern</label>
+								    <select class="form-control" id="exampleFormControlSelect1">
+								        <option>Follow-Up</option>
+								        <option>Quotation</option>
+								        <option>Appointment</option>
+								    </select>
+								  </div>
+
+								  <div class="form-group">
+								    <label for="exampleFormControlTextarea1">Message</label>
+								    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+								  </div>
+
+								  <button type="submit" class="btn btn-dark">Send Email</button>
+								</form>
+							</div>
 						</div>
 					</div>
 
+					<!-- Social Medias -->
+					<div class="d-flex flex-column my-5">
+						<div class=text-center>
+							<p>..or hit me up in the social medias!
+						</div>
+						<div class="d-flex justify-content-around">
+							<div>
+								<a href="https://facebook.com/colleeeene">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6vw" height="6vh" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+									  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+									</svg>
+								</a>
+							</div>
 
+							<div>
+								<a href="https://twitter.com/desilvacollene">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6vw" height="6vh" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+									  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+									</svg>
+								</a>
+							</div>
 
-					<!-- Other Interests End  -->
-
+							<div>
+								<a href="https://www.linkedin.com/in/collenedesilva/">
+									<svg xmlns="http://www.w3.org/2000/svg" width="6vw" height="6vh" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+									  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
 		</section>
-		<!-- About Me End -->
+		<!-- Contacts End -->
+
+		<!-- Footer Start -->
+		<section class="container-fluid bg-2 d-flex text-2 justify-content-between align-items-center">
+				<div class="ml-md-5">
+					<ul>
+						<a class="a-footer" href="#home"><li>Home</li></a>
+						<a class="a-footer" href="#about-me"><li>About Me</li></a>
+						<a class="a-footer" href="#projects"><li>Projects</li></a>
+						<a class="a-footer" href="#contact-me"><li>Contact</li></a>
+					</ul>
+				</div>
+
+				<div class="mr-md-5">
+					<p class="p-footer">&copy; 2022 CDS </p>
+				</div>
+		</section>
+		<!-- Footer End -->
+		
 
 		<!-- JS Dependencies -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
